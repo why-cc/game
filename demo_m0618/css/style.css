@@ -406,6 +406,7 @@ address, caption, em,i {
     padding: 0 0;
     max-height: 0rem;
     overflow: hidden;
+    transition: all .3s;
 }
 .menu_nav>li.active>a{
     color: #eaa014;
