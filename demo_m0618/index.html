@@ -257,7 +257,10 @@
             
             $$menuNavLiA.forEach($item => {
                 $item.onclick = function(){
-                    this.classList.toggle('active')
+                    $$menuNavLiA.forEach($item =>{
+                        this.parentNode.classList.toggle('active')
+                    })
+                    
                 
                 }
             
