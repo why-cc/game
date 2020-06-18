@@ -249,6 +249,23 @@
             </div>
 
         </div>
+        
+        
+        <script>
+            
+            const $$menuNavLi = document.querySelectorAll('.menu_nav>li')
+            
+            $$menuNavLi.forEach($item => {
+                $item.onclick = function(){
+                    this.classList.toggle('active')
+                
+                }
+            
+            })
+        
+        
+        
+        </script>
 
 
 
@@ -302,13 +319,17 @@
         const $menu_close = document.querySelector('.menu_close')
         const $menu_btn = document.querySelector('.menu_btn')
 
-
         $menu_btn.onclick = function () {
             $menu_wrap.classList.add('on')
         }
         $menu_close.onclick = function () {
             $menu_wrap.classList.remove('on')
         }
+        
+        
+        
+        
+        
 
 
     </script>
