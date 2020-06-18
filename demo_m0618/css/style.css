@@ -404,7 +404,7 @@ address, caption, em,i {
 .menu_nav .menu_list{
     background-color: #0d0f13;
     padding: 0 0;
-    height: 0;
+    max-height: 0rem;
     overflow: hidden;
 }
 .menu_nav>li.active>a{
@@ -413,7 +413,7 @@ address, caption, em,i {
 .menu_nav>li.active .menu_list{
     background-color: #0d0f13;
     padding: .1rem 0;
-    height: auto;
+    max-height: 2rem;
     overflow: hidden;
 }
 /* .menu_nav .menu_list>li{
