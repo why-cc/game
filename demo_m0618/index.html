@@ -253,9 +253,9 @@
         
         <script>
             
-            const $$menuNavLi = document.querySelectorAll('.menu_nav>li')
+            const $$menuNavLiA = document.querySelectorAll('.menu_nav>li>a')
             
-            $$menuNavLi.forEach($item => {
+            $$menuNavLiA.forEach($item => {
                 $item.onclick = function(){
                     this.classList.toggle('active')
                 
