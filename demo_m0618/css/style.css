@@ -324,7 +324,7 @@ address, caption, em,i {
     background-color: #181a1f;
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    overflow-x: hidden;
 }
 .menu_wrap.on{
     left:0;
