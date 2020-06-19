@@ -1,0 +1,38 @@
+@media only screen and (max-width: 414px){
+    .list01_info .tit {
+        font-size: .24rem;
+        
+    }
+    .list01_info .date {
+        font-size: .14rem;
+    }
+    .list01_info {
+        padding: 0 .03rem .16rem;
+    }
+    .list01_info .disc {
+        font-size: .14rem;
+    }
+
+    
+
+    .footer .foo_list li a {
+        font-size: .12rem;
+        
+    }
+    .footer .copyright {
+        font-size: .12rem;
+    }
+
+    .footer .copyright {
+        margin-bottom: .3rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 375px){
+    .menu_nav>li>a {
+        font-size: .16rem;
+    }
+}
